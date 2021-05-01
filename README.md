@@ -22,7 +22,8 @@ There is no complete installer at the moment, but you can still get a workable S
 
 ```
 git clone https://github.com/Slackware-riscv64/slackware_riscv.git
-tar xJvf -C / slackware-current/slackware/a/pkgtools-*.txz
+cd slackware_riscv
+tar xJvf slackware-current/slackware/a/pkgtools-*.txz -C /
 mkdir chroot
 export CHROOT=$(pwd)/chroot
 export SLACK_DIST=$(pwd)/
