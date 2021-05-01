@@ -10,7 +10,7 @@ Since several attempts to ask SiFive for hardware where sadly ignored, we are pr
 
 ## Status
 
-Packages in repo: 822
+Packages in repo: 826
 
 Chroot size: 4.4G
 
@@ -21,7 +21,7 @@ The bulk of the package building for all package series is done, with a small po
 There is no complete installer at the moment, but you can still get a workable Slackware environment in minutes with this dirty alternative:
 
 ```
-git clone https://github.com/fede2cr/slackware_riscv.git
+git clone https://github.com/Slackware-riscv64/slackware_riscv.git
 tar xJvf -C / slackware-current/slackware/a/pkgtools-*.txz
 mkdir chroot
 export CHROOT=$(pwd)/chroot
